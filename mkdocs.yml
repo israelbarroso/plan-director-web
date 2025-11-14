@@ -1,0 +1,32 @@
+site_name: Plan Director TIC • 2025–2027
+theme:
+  name: material
+
+nav:
+  - Inicio: index.md
+  - Introducción: 00-introduccion.md
+  - Ámbitos funcionales:
+      - Presupuesto: 11-ambito-presupuesto.md
+      - Fondos Europeos: 12-ambito-fondos-europeos.md
+      - Costes de personal y pensiones públicas: 13-ambito-de-costes-de-personal-y-pensiones-publicas.md
+      - Contabilidad y control: 14-ambito-de-contabilidad-y-control.md
+      - Gestión económica y presupuestaria: 15-ambito-gestion-economica-presupuestaria.md
+      - Sistemas corporativos transversales y aspectos comunes:
+          16-ambito-de-los-sistemas-corporativos-transversales-y-aspectos-tecnologicos-y-organizativos-comunes-a-los-distintos-ambitos-funcionales.md
+  - Infraestructura y comunicaciones: 20-Política de infraestructura tecnológica y de comunicaciones.md
+  - Inteligencia Artificial: 60-Inteligencia-Artificial.md
+  - Puesto de Usuario: 70-Puesto-de-usuario.md
+  - Estrategia interna de modernización: 50-Mejora-organizativa-OIP.md
+  - Ciberseguridad: 30-Ciberseguridad.md
+  - Recursos e infrestructura necesarios para la ejecución del Plan Director: 40-Infraestructura-y-recursos.md 
+  # Si quieres que aparezca en la web, añade la portada:
+  # - Portada (PDF/Pandoc): cover.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+

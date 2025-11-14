@@ -1,0 +1,150 @@
+/* ====== Impresión corporativa OIP / IGAE ====== */
+
+/* Tipografía base (cámbiala si usáis otra corporativa) */
+html, body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 11pt;
+  color: #222;
+  line-height: 1.35;
+}
+
+/* Tamaño y márgenes de página A4 */
+@page {
+  size: A4;
+  margin: 18mm 15mm 18mm 15mm;
+  @top-left {
+    content: "Plan Director TIC 2025–2027";
+    font-size: 9pt;
+    color: #666;
+  }
+  @top-right {
+    content: string(section, first);
+    font-size: 9pt;
+    color: #666;
+  }
+  @bottom-left {
+    content: "IGAE · OIP";
+    font-size: 9pt;
+    color: #666;
+  }
+  @bottom-right {
+    content: counter(page) " / " counter(pages);
+    font-size: 9pt;
+    color: #666;
+  }
+}
+
+/* Evitar que encabezados queden al final de página */
+h1, h2, h3, h4 { page-break-after: avoid; break-after: avoid; }
+
+/* Numeración de secciones en cabecera (running strings) */
+h1 { string-set: section content(); }
+h2 { string-set: section content(); }
+
+/* Portada (cover) */
+.pdf-cover,
+.md-typeset .cover {
+  page: cover;
+  page-break-after: always;
+  text-align: center;
+  padding-top: 35mm;
+}
+@page cover {
+  @top-left { content: none; }
+  @top-right { content: none; }
+  @bottom-left { content: none; }
+  @bottom-right { content: none; }
+  margin: 0;
+}
+
+/* Bloque de portada */
+.cover .brand-band {
+  width: 100%;
+  height: 22mm;
+  background: #002c5c; /* azul corporativo (ajusta) */
+}
+.cover .logos {
+  margin: 20mm auto 8mm auto;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cover .logos img {
+  max-height: 28mm;
+  max-width: 45%;
+}
+.cover .title {
+  margin: 12mm auto 0 auto;
+  font-size: 24pt;
+  font-weight: 700;
+}
+.cover .subtitle {
+  margin: 4mm auto 0 auto;
+  font-size: 13pt;
+  color: #444;
+}
+.cover .meta {
+  margin: 20mm auto 0 auto;
+  font-size: 10pt;
+  color: #666;
+}
+
+/* Tablas */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 10pt;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 6px 8px;
+  vertical-align: top;
+}
+th {
+  background: #f3f5f7;
+  font-weight: 600;
+}
+
+/* Códigos y bloques */
+code, pre code { font-family: Consolas, "Courier New", monospace; font-size: 9.5pt; }
+pre { border: 1px solid #eee; background: #fafafa; padding: 8px 10px; }
+
+/* Listas */
+ul, ol { margin: 0 0 6pt 16pt; }
+
+/* Enlaces: mostrar URL entre paréntesis para el PDF */
+a[href^="http"]::after {
+  content: " (" attr(href) ")";
+  font-size: 9pt;
+  color: #555;
+}
+
+/* Ocultar elementos de navegación del tema al imprimir */
+@media print {
+  .md-banner, .md-header, .md-nav, .md-footer,
+  .md-sidebar--primary, .md-sidebar--secondary { display: none !important; }
+  .md-main__inner { margin: 0 !important; }
+}
+
+/* Saltos de página manuales desde Markdown */
+.page-break { page-break-after: always; }
+
+/* Estilos de títulos (ligeramente más compactos en PDF) */
+h1 { font-size: 20pt; margin: 10pt 0 8pt 0; }
+h2 { font-size: 15pt; margin: 10pt 0 6pt 0; }
+h3 { font-size: 12pt; margin: 8pt 0 4pt 0; }
+
+/* Bloques de "resumen ejecutivo" */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6pt;
+}
+.kpi {
+  border: 1px solid #e3e7ec;
+  padding: 6pt 8pt;
+  background: #fbfcfd;
+}
+.kpi .label { font-size: 9pt; color: #666; }
+.kpi .value { font-size: 14pt; font-weight: 700; }
