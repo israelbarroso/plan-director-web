@@ -2,3 +2,14 @@
     text-align: justify;
     hyphens: auto;
 }
+
+/* Color de fondo de la barra superior */
+.md-header {
+    background-color: #000000 !important;
+}
+
+/* Color del título y del texto del menú */
+.md-header__title,
+.md-tabs__link {
+    color: #ffffff !important;
+}
