@@ -2,6 +2,9 @@ site_name: Plan Director OIP • 2025–2027
 theme:
   name: material
 
+extra_css:
+  - assets/css/extra.css
+
 nav:
   - Inicio: index.md
   - Introducción: 00-introduccion.md
