@@ -1,3 +1,13 @@
+<div class="brand-band"></div>
+
+<div class="logos">
+<!--<div class="logos">
+  <img src="assets/img/logo_minhap.png" alt="MINHAP">
+  <img src="assets/img/logo_igae.png" alt="IGAE">
+  <img src="assets/img/logo_oip.jpg" alt="OIP">
+</div>
+</div> -->
+
 </div>
 
 <div class="page-break"></div>
