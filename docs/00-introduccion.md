@@ -1,6 +1,4 @@
-<div class="pilares">
-  <img src="assets/img/pilares2.png" alt="pilares">
-</div>
+![pilares2.png](assets/img/pilares2.png)
 
 Desde 2003, se ha venido aprobando este Plan director de sistemas de información de la Administración Presupuestaria, que, con un alcance temporal de 3 años, se ha actualizado anualmente desde entonces. El Real Decreto 806/2014, de 19 de septiembre, sobre organización e instrumentos operativos de las tecnologías de la información y las comunicaciones en la Administración General del Estado y sus Organismos Públicos, ya contemplaba la aprobación de Planes de acción departamentales para la transformación digital, y por otra parte, el entorno complejo y cambiante, tanto en lo organizativo como en lo tecnológico, en el que se encuentra la Oficina de Informática Presupuestaria, justifican la necesidad de este Plan Director como instrumento de planificación a medio plazo.
 

@@ -1,17 +1,8 @@
-<!-- Portada para PDF -->
-<div class="cover">
-
-<div class="brand-band"></div>
-
-<!--<div class="logos">
-  <img src="assets/img/logo_minhap.png" alt="MINHAP">
-  <img src="assets/img/logo_igae.png" alt="IGAE">
-  <img src="assets/img/logo_oip.jpg" alt="OIP">
-</div> -->
-
 </div>
 
 <div class="page-break"></div>
+
+![pilares.png](assets/img/pilares.png)
 
 El **Plan Director TIC 2025–2027** define la hoja de ruta tecnológica de la **Oficina de Informática Presupuestaria (OIP)** y su papel en la modernización de la **Administración Presupuestaria**.
 
@@ -34,7 +25,7 @@ El Plan refuerza la visión de la OIP como **centro TIC de referencia**, integra
 
 # Indicadores clave (KPIs)
 
-
+![radiografia.png](assets/img/radiografia.png)
 
 El Plan Director 2025–2027 consolida un modelo TIC **centrado en el dato, la seguridad y las personas**, con una gestión más ágil, transparente y sostenible.  
 Su aplicación garantizará una Administración Presupuestaria más moderna, eficiente y conectada.
