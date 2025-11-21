@@ -13,8 +13,6 @@
 
 <div class="page-break"></div>
 
-# 1. Resumen ejecutivo
-
 El **Plan Director TIC 2025–2027** define la hoja de ruta tecnológica de la **Oficina de Informática Presupuestaria (OIP)** y su papel en la modernización de la **Administración Presupuestaria**.
 
 Su finalidad es asegurar que la infraestructura, los sistemas y los servicios digitales evolucionen de forma coordinada, segura y eficiente, alineados con los objetivos de transformación del Ministerio de Hacienda.
@@ -29,22 +27,14 @@ El documento recoge los principales ámbitos de actuación:
 
 El Plan refuerza la visión de la OIP como **centro TIC de referencia**, integrador de soluciones, garante del cumplimiento normativo y motor de innovación dentro de la Administración Presupuestaria.
 
----
-
-# 2. Infografía visual
-
 <div class="infografia">
   <img src="assets/img/infografia1.png" alt="infografia">
 </div>
 
----
 
-# 3. Indicadores clave (KPIs)
+# Indicadores clave (KPIs)
 
 
----
-
-## Conclusión
 
 El Plan Director 2025–2027 consolida un modelo TIC **centrado en el dato, la seguridad y las personas**, con una gestión más ágil, transparente y sostenible.  
 Su aplicación garantizará una Administración Presupuestaria más moderna, eficiente y conectada.
