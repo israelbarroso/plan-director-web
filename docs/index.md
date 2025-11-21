@@ -33,6 +33,10 @@ El Plan refuerza la visión de la OIP como **centro TIC de referencia**, integra
 
 # 2. Infografía visual
 
+<div class="infografia">
+  <img src="assets/img/infografia1.png" alt="infografia">
+</div>
+
 ---
 
 # 3. Indicadores clave (KPIs)
